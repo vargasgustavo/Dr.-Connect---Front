@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(250deg,#4791ff,#4777FF);
+    color: black;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+}
+.header{
+    height: 8vh;
+    background: white;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+.header ul a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.header ul a:hover{
+    color: #1f4379;
+}
+.main{
+    height: 82vh;
+    width: 100%;
+}
+.search-box{
+    background-color: white;
+    border-radius: 100px;
+    color: #1d1d1d;
+    left: 100%;
+    transform: translate(-100%);
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 1.3rem;
+    line-height: 30px;
+    width: 0;
+}
+.search-btn{
+    padding: 15px 15px;
+    border-radius: 50px;
+    background: #4777FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box:hover > .search-txt{
+    width: 400px;
+    transition: ease-in .2s;
+}
+.section{
+    width: 100%;
+}
+.footer{
+    background: linear-gradient(135deg,rgb(0,0,0), rgb(60,60,60));
+    height: 10vh;
+    width: 100%;
+}
