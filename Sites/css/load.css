@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.c-loader{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #e5e5e5;
+    border-top-color: #51d4db;
+    border-radius: 50%;
+    animation: in-rotating 1s infinite;
+}
+@keyframes in-rotating{
+    to{
+        transform: rotate(1turn);
+    }
+}

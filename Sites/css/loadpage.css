@@ -16,16 +16,19 @@ body{
     margin: 15px;
     background: lightskyblue;
     border-radius: 50%;
-    animation: anima 1s ease-out infinite alternate-reverse;
+    animation: anima .5s ease-in infinite alternate-reverse;
 }
 .load div:nth-child(1){
-    animation-delay: -0.5s;
+    animation-delay: -0.6s;
 }
 .load div:nth-child(2){
-    animation-delay: -0.3s;
+    animation-delay: -0.5s;
 }
 .load div:nth-child(3){
-    animation-delay: -0.1s;
+    animation-delay: -0.4s;
+}
+.load div:nth-child(4){
+    animation-delay: -0.3s;
 }
 @keyframes anima{
     from{
